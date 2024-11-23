@@ -13,8 +13,8 @@ This application is built using Flask and SQLite database. It provides the follo
 1. Clone the repository:
    
 bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/RosanaBlazheska/real_project_final.git
+   cd real_project_final
 Install dependencies:
 
 pip install flask
@@ -142,6 +142,7 @@ if __name__ == '__main__':
     conn.close()
 
     app.run(debug=True)
+
 API Endpoints
 1. GET /total_spent/<user_id>
 Retrieves the total spending for a specific user.
